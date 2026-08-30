@@ -10,7 +10,7 @@
 
 I turn physical problems into models, simulations, and tools that people can actually use.
 
-[View projects](https://github.com/suren1013?tab=repositories) · [Follow the build](https://github.com/suren1013?tab=followers) · [GitHub profile](https://github.com/suren1013)
+[View projects](https://github.com/suren1013?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/surendher-r/) · [Email](mailto:rsurendher35@gmail.com)
 
 </div>
 
@@ -51,6 +51,32 @@ Alongside simulation work, I build dashboards, workflow automations, and small d
 
 Long term, I want to work on large-scale aerospace and space systems, especially thermal management, fluid mechanics, structures, and rotating space habitats.
 
+## Featured builds
+
+### [01 / Casting Assistant](https://github.com/suren1013/Casting-Assistant)
+
+**Problem** — Early casting design requires several connected decisions around geometry, feeding, riser sizing, material use, and process risk.
+
+**Built** — An interactive engineering dashboard that calculates casting and riser modulus, yield, feeding distance, material waste and cost, and design-risk flags across six alloys, supported by a 3D riser schematic.
+
+`TypeScript` · `React` · `React Three Fiber`
+
+### [02 / Customer CLV Dashboard](https://github.com/suren1013/customer-clv-dashboard)
+
+**Problem** — Raw transaction data needs substantial validation and transformation before it can support useful customer decisions.
+
+**Built** — An upload-to-export analytics workflow with CSV validation, a 10-step cleaning pipeline, 12 customer metrics, seven RFM segments, CLV calculation, customer exploration, and CSV, Excel, PDF, and PNG exports.
+
+`Python` · `Streamlit` · `Pandas` · `Plotly`
+
+### [03 / TN Election Live Dashboard](https://github.com/suren1013/TN-Election-Live-Dashboard)
+
+**Problem** — Live election results are easier to understand when seat movement, constituency status, and the majority threshold are visible in one place.
+
+**Built** — A deployed dashboard covering 234 constituencies with 60-second data refresh, party and alliance aggregation, search and filtering, and majority tracking.
+
+`TypeScript` · `React` · `Google Cloud Run` · [Live application →](https://tn-election-dashboard-2026-1096783328687.us-west1.run.app)
+
 ## Working palette
 
 | Engineering | Code | Tools |
@@ -66,6 +92,12 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 - Close the loop: learn from the result and improve the model.
 
 > **Current signal:** Understand the system. Build the simplest useful version. Then make it better.
+
+## Let's build something useful
+
+I am open to **internships and collaborations** in thermal engineering, CFD, engineering software, and applied AI.
+
+[Connect on LinkedIn →](https://www.linkedin.com/in/surendher-r/) · [Send me an email →](mailto:rsurendher35@gmail.com)
 
 <div align="center">
 
