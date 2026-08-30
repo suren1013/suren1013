@@ -53,6 +53,8 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 
 ## Featured builds
 
+<img src="./assets/project-telemetry.svg" alt="Animated project telemetry connecting Casting Assistant, Customer CLV Dashboard, and TN Election Live Dashboard capability metrics" width="100%" />
+
 ### [01 / Casting Assistant](https://github.com/suren1013/Casting-Assistant)
 
 **Problem** — Early casting design requires several connected decisions around geometry, feeding, riser sizing, material use, and process risk.
