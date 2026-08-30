@@ -4,9 +4,9 @@
 
 <div align="center">
 
-# SUR\_EN
+# SURENDHER_R
 
-### I turn curious ideas into crisp, useful software.
+### Mechanical engineering, simulation, and software built around real problems.
 
 [GitHub](https://github.com/suren1013) · [Explore the work](https://github.com/suren1013?tab=repositories) · [Follow the build](https://github.com/suren1013?tab=followers)
 
@@ -18,34 +18,65 @@
 
 ## In The Workshop
 
-I build digital tools that make complicated things feel calm and obvious. My sweet spot is where product thinking, practical engineering, and a little bit of curiosity meet.
+I am a Mechanical Engineering student who enjoys building at the intersection of engineering and software.
+
+A lot of my work starts with a mechanical problem, whether that means heat transfer, fluid flow, design, simulation, or engineering data, and then asks how code can make the problem easier to study, automate, or solve.
+
+I also use AI as part of my development workflow to move faster from an idea to a working system, while keeping the engineering, architecture, and decisions grounded in what the project actually needs.
 
 ```text
-NOW BUILDING       web experiences that feel intentional
-EXPLORING          automation, AI workflows, and developer tools
-BIAS               simple systems, sharp details, work that earns its place
+NOW BUILDING       engineering tools, simulations, and useful software
+EXPLORING          CFD, thermal systems, automation, and AI workflows
+LEARNING           OpenFOAM, numerical methods, and better engineering code
+BIAS               useful projects, clear reasoning, and systems that actually work
 ```
 
-## The Things I Care About
+## What I Work On
 
-| 01 / Experience | 02 / Systems | 03 / Leverage |
-| --- | --- | --- |
-| Interfaces with clarity, rhythm, and a point of view. | Reliable code that stays easy to change. | Automation that gives people their time back. |
+| 01 / Mechanical                                                                  | 02 / Simulation                                                                     | 03 / Software                                                                              |
+| -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Heat transfer, thermal systems, machine design, and engineering problem solving. | CFD, FEA, numerical modelling, and turning physical systems into computable models. | Web tools, automation, AI-assisted workflows, and software built around engineering needs. |
+
+## Current Work
+
+I am currently spending most of my time on projects around **thermal engineering and CFD**, including an OpenFOAM-based study of forced-air cooling for avionics heat sinks.
+
+Alongside engineering work, I build software tools such as dashboards, workflow automation systems, and small developer utilities. I am particularly interested in projects where software does more than display information and becomes part of the engineering workflow itself.
+
+Long term, I want to work on large-scale aerospace and space systems, especially problems involving thermal management, fluid mechanics, structures, and rotating space habitats.
 
 ## Working Palette
 
-`JavaScript` `TypeScript` `React` `Node.js` `Python` `Git` `GitHub`
+**Engineering**
+
+`OpenFOAM` `ANSYS` `SolidWorks` `CFD` `FEA` `Heat Transfer`
+
+**Code**
+
+`Python` `TypeScript` `JavaScript` `React` `Next.js` `Java`
+
+**Tools**
+
+`Git` `GitHub` `VS Code` `LangChain`
+
+## How I Build
+
+I like projects where I have to understand the underlying system before writing the software.
+
+That usually means starting with the physics or the actual user problem, reducing it into something measurable, building the first working version, and then improving the model or tool from there.
+
+AI helps me prototype and explore faster, but the goal is not to generate more code. The goal is to build better engineering tools with less wasted effort.
 
 ## Current Signal
 
-> Make it useful. Make it legible. Then make it memorable.
+> Understand the system. Build the simplest useful version. Then make it better.
 
-I am always learning in public and building toward better products, one thoughtful release at a time. The repositories below are the living record.
+This GitHub is where I document that process through engineering simulations, software experiments, coursework projects, and larger ideas that I want to keep pushing further.
 
 <div align="center">
 
 ### [Open the repository archive](https://github.com/suren1013?tab=repositories)
 
-<sub>Built with intention in the open.</sub>
+<sub>Mechanical engineering, computation, and a lot of building.</sub>
 
 </div>
