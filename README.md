@@ -1,81 +1,75 @@
 <div align="center">
-  <img src="./assets/suren-banner.png" alt="Suren's digital workshop" width="100%" />
+  <img src="./assets/suren-banner.png" alt="Suren's digital workshop — mechanical engineering, airflow, and software" width="100%" />
 </div>
 
 <div align="center">
 
 # SURENDHER_R
 
-### Mechanical engineering, simulation, and software built around real problems.
+### Mechanical engineering × simulation × useful software
 
-[GitHub](https://github.com/suren1013) · [Explore the work](https://github.com/suren1013?tab=repositories) · [Follow the build](https://github.com/suren1013?tab=followers)
+I turn physical problems into models, simulations, and tools that people can actually use.
+
+[View projects](https://github.com/suren1013?tab=repositories) · [Follow the build](https://github.com/suren1013?tab=followers) · [GitHub profile](https://github.com/suren1013)
 
 </div>
 
 <br />
 
-<img src="./assets/build-signal.svg" alt="Build signal active" width="100%" />
+<img src="./assets/build-signal.svg" alt="Animated build signal showing that the workshop is active" width="100%" />
 
-## In The Workshop
-
-I am a Mechanical Engineering student who enjoys building at the intersection of engineering and software.
-
-A lot of my work starts with a mechanical problem, whether that means heat transfer, fluid flow, design, simulation, or engineering data, and then asks how code can make the problem easier to study, automate, or solve.
-
-I also use AI as part of my development workflow to move faster from an idea to a working system, while keeping the engineering, architecture, and decisions grounded in what the project actually needs.
+## Workshop status
 
 ```text
-NOW BUILDING       engineering tools, simulations, and useful software
-EXPLORING          CFD, thermal systems, automation, and AI workflows
-LEARNING           OpenFOAM, numerical methods, and better engineering code
-BIAS               useful projects, clear reasoning, and systems that actually work
+NOW BUILDING   engineering tools, simulations, and useful software
+CURRENT FOCUS  thermal engineering + forced-air cooling + CFD
+LEARNING       OpenFOAM, numerical methods, and better engineering code
+OPERATING ON   curiosity, clear reasoning, and systems that actually work
 ```
 
-## What I Work On
+## From physics to working systems
 
-| 01 / Mechanical                                                                  | 02 / Simulation                                                                     | 03 / Software                                                                              |
-| -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Heat transfer, thermal systems, machine design, and engineering problem solving. | CFD, FEA, numerical modelling, and turning physical systems into computable models. | Web tools, automation, AI-assisted workflows, and software built around engineering needs. |
+I am a Mechanical Engineering student building at the intersection of **engineering and software**. My work usually starts with a physical system—heat transfer, fluid flow, machine design, or engineering data—and asks how computation can help us understand it, improve it, or make it easier to use.
 
-## Current Work
+I use AI to shorten the distance between an idea and a working prototype, while keeping the engineering assumptions, architecture, and decisions grounded in the real problem.
 
-I am currently spending most of my time on projects around **thermal engineering and CFD**, including an OpenFOAM-based study of forced-air cooling for avionics heat sinks.
+<img src="./assets/engineering-loop.svg" alt="Animated engineering workflow: problem, model, simulate, validate, and ship" width="100%" />
 
-Alongside engineering work, I build software tools such as dashboards, workflow automation systems, and small developer utilities. I am particularly interested in projects where software does more than display information and becomes part of the engineering workflow itself.
+## What I work on
 
-Long term, I want to work on large-scale aerospace and space systems, especially problems involving thermal management, fluid mechanics, structures, and rotating space habitats.
+| 01 / Mechanical | 02 / Simulation | 03 / Software |
+| :--- | :--- | :--- |
+| Heat transfer, thermal systems, machine design, and engineering problem-solving. | CFD, FEA, numerical modelling, and translating physical systems into computable models. | Web tools, automation, AI-assisted workflows, and software built around engineering needs. |
 
-## Working Palette
+## Current work
 
-**Engineering**
+My present focus is **thermal engineering and CFD**, including an OpenFOAM-based study of forced-air cooling for avionics heat sinks.
 
-`OpenFOAM` `ANSYS` `SolidWorks` `CFD` `FEA` `Heat Transfer`
+<img src="./assets/thermal-flow.svg" alt="Animated forced-convection diagram showing cool inlet air removing heat from a fin array" width="100%" />
 
-**Code**
+Alongside simulation work, I build dashboards, workflow automations, and small developer utilities. I am especially interested in projects where software does more than display information—it becomes part of the engineering workflow itself.
 
-`Python` `TypeScript` `JavaScript` `React` `Next.js` `Java`
+Long term, I want to work on large-scale aerospace and space systems, especially thermal management, fluid mechanics, structures, and rotating space habitats.
 
-**Tools**
+## Working palette
 
-`Git` `GitHub` `VS Code` `LangChain`
+| Engineering | Code | Tools |
+| :--- | :--- | :--- |
+| `OpenFOAM` `ANSYS` `SolidWorks` `CFD` `FEA` `Heat Transfer` | `Python` `TypeScript` `JavaScript` `React` `Next.js` `Java` | `Git` `GitHub` `VS Code` `LangChain` |
 
-## How I Build
+## Build principles
 
-I like projects where I have to understand the underlying system before writing the software.
+- Understand the physical system before abstracting it.
+- Make assumptions visible and results measurable.
+- Build the smallest useful version, then validate it.
+- Use AI to accelerate judgment—not replace it.
+- Close the loop: learn from the result and improve the model.
 
-That usually means starting with the physics or the actual user problem, reducing it into something measurable, building the first working version, and then improving the model or tool from there.
-
-AI helps me prototype and explore faster, but the goal is not to generate more code. The goal is to build better engineering tools with less wasted effort.
-
-## Current Signal
-
-> Understand the system. Build the simplest useful version. Then make it better.
-
-This GitHub is where I document that process through engineering simulations, software experiments, coursework projects, and larger ideas that I want to keep pushing further.
+> **Current signal:** Understand the system. Build the simplest useful version. Then make it better.
 
 <div align="center">
 
-### [Open the repository archive](https://github.com/suren1013?tab=repositories)
+### [Explore the repository archive →](https://github.com/suren1013?tab=repositories)
 
 <sub>Mechanical engineering, computation, and a lot of building.</sub>
 

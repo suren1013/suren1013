@@ -1,0 +1,71 @@
+<svg width="920" height="228" viewBox="0 0 920 228" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated forced-air heat sink visualization</title>
+  <desc id="desc">Cool air flows through a heated fin array and carries heat downstream, illustrating forced convection.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="920" y2="228" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="0.48" stop-color="#121A20"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="fin" x1="0" y1="53" x2="0" y2="181" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4B942"/>
+      <stop offset="1" stop-color="#D95D39"/>
+    </linearGradient>
+    <linearGradient id="air" x1="30" y1="0" x2="890" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#23C9E8"/>
+      <stop offset="0.52" stop-color="#77D8DB"/>
+      <stop offset="1" stop-color="#F4B942"/>
+    </linearGradient>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="920" height="228" rx="12" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="919" height="227" rx="11.5" stroke="#23313A"/>
+  <text x="28" y="31" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2">FORCED-CONVECTION STUDY</text>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="9" letter-spacing="1.2">
+    <text x="28" y="53" fill="#23C9E8">COOL AIR / INLET</text>
+    <text x="892" y="53" text-anchor="end" fill="#F4B942">HEAT TRANSPORT / OUTLET</text>
+  </g>
+
+  <g opacity="0.45" stroke="#27343D" stroke-width="1">
+    <path d="M28 79H892"/><path d="M28 113H892"/><path d="M28 147H892"/><path d="M28 181H892"/>
+  </g>
+
+  <g stroke="url(#air)" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M28 79C180 79 220 66 350 74S590 95 892 80"/>
+    <path d="M28 113C180 113 260 102 350 108S590 126 892 114"/>
+    <path d="M28 147C180 147 260 138 350 143S590 160 892 148"/>
+    <path d="M28 181C180 181 220 170 350 177S590 192 892 182"/>
+  </g>
+
+  <g fill="url(#fin)" stroke="#F4B942" stroke-width="1">
+    <rect x="382" y="66" width="18" height="112" rx="2"/>
+    <rect x="414" y="57" width="18" height="121" rx="2"/>
+    <rect x="446" y="48" width="18" height="130" rx="2"/>
+    <rect x="478" y="57" width="18" height="121" rx="2"/>
+    <rect x="510" y="66" width="18" height="112" rx="2"/>
+    <rect x="364" y="178" width="182" height="11" rx="3"/>
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="3s" repeatCount="indefinite"/>
+  </g>
+
+  <g fill="#23C9E8" filter="url(#softGlow)">
+    <circle r="3"><animateMotion path="M28 79C180 79 220 66 350 74S590 95 892 80" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle r="3"><animateMotion path="M28 113C180 113 260 102 350 108S590 126 892 114" begin="-1.2s" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle r="3"><animateMotion path="M28 147C180 147 260 138 350 143S590 160 892 148" begin="-2.4s" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle r="3"><animateMotion path="M28 181C180 181 220 170 350 177S590 192 892 182" begin="-3.6s" dur="4.6s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#F4B942" opacity="0">
+    <circle r="2.5"><animateMotion path="M28 79C180 79 220 66 350 74S590 95 892 80" begin="-2.2s" dur="4.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1" keyTimes="0;.52;1" dur="4.6s" repeatCount="indefinite"/></circle>
+    <circle r="2.5"><animateMotion path="M28 147C180 147 260 138 350 143S590 160 892 148" begin="-3.4s" dur="4.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1" keyTimes="0;.52;1" begin="-1.2s" dur="4.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <rect x="606" y="65" width="117" height="24" rx="12" fill="#151F26" stroke="#31424D"/>
+    <circle cx="621" cy="77" r="4" fill="#49D6C3"><animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="634" y="80.5" fill="#C9D1D9" font-size="9" letter-spacing="1">FLOW SOLVING</text>
+    <text x="460" y="213" text-anchor="middle" fill="#8B949E" font-size="9" letter-spacing="1.2">AIRFLOW → BOUNDARY LAYER → HEAT REMOVAL</text>
+  </g>
+</svg>
