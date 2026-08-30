@@ -1,0 +1,12 @@
+<svg width="920" height="86" viewBox="0 0 920 86" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Build signal animation">
+  <rect width="920" height="86" rx="8" fill="#0D1117"/>
+  <path d="M24 43H126L154 21L196 64L230 43H342L370 21L412 64L446 43H558L586 21L628 64L662 43H896" stroke="#23313A" stroke-width="2"/>
+  <path d="M24 43H126L154 21L196 64L230 43H342L370 21L412 64L446 43H558L586 21L628 64L662 43H896" stroke="#23C9E8" stroke-width="2" stroke-linecap="round" stroke-dasharray="26 920">
+    <animate attributeName="stroke-dashoffset" values="946;0" dur="3.6s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="154" cy="21" r="4" fill="#F4B942"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="370" cy="21" r="4" fill="#F4B942"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="586" cy="21" r="4" fill="#F4B942"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="24" y="76" fill="#8B949E" font-family="monospace" font-size="11" letter-spacing="1.5">BUILD SIGNAL / ACTIVE</text>
+  <text x="736" y="76" fill="#F4B942" font-family="monospace" font-size="11" letter-spacing="1.5">SUR-01</text>
+</svg>
