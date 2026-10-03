@@ -1,0 +1,26 @@
+{
+  "captured_on": "2026-10-04",
+  "purpose": "Genuine interface evidence; values shown are application examples or time-specific snapshots, not portfolio achievement metrics.",
+  "casting": {
+    "source": "https://github.com/suren1013/Casting-Assistant",
+    "revision": "f4726fbcfcf4dc641de0c3929e10fccfe2d57f9d",
+    "capture": "casting-interface.png",
+    "card_viewport_capture": "casting-viewport.png",
+    "inputs": "Application default plate geometry and alloy settings.",
+    "notes": "Local public-source application. No AI review was generated; no API key was supplied."
+  },
+  "clv": {
+    "source": "https://github.com/suren1013/customer-clv-dashboard",
+    "revision": "de138a8f83c4a56916e18f19708541a53ec9f69e",
+    "capture": "clv-interface.png",
+    "inputs": "Bundled public data/demo/Online Retail (1).csv, analyzed with the application's native Analyze Dataset control.",
+    "notes": "Local public-source application. In the ignored preview checkout only, an escaped checkmark literal in app.py was replaced with the equivalent Unicode character to support Python 3.11. No computation or interface was redesigned."
+  },
+  "election": {
+    "source": "https://tn-election-dashboard-2026-1096783328687.us-west1.run.app",
+    "repository_revision": "fa40b950723bde01fe3ba0e8208ac71be970c561",
+    "capture": "election-interface.png",
+    "inputs": "The live public application in its map view.",
+    "notes": "A dated interface snapshot. Displayed election figures are not treated as independently verified election results."
+  }
+}

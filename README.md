@@ -1,10 +1,6 @@
-<div align="center">
-  <img src="./assets/control-cover.png" alt="Surendher — mechanical engineering and computation. Brutalist architecture, suspended blocks and a fractured hedron under vermilion light." width="100%" />
-</div>
+<img src="./assets/control-cover.png" alt="Surendher — mechanical engineering and computation. Original brutalist architecture, suspended blocks and a fractured hedron under vermilion light." width="100%" />
 
 <br />
-
-<sub>SURENDHER_R &nbsp; / &nbsp; MECHANICAL ENGINEERING × SIMULATION × USEFUL SOFTWARE</sub>
 
 **I turn physical problems into models, simulations, and tools that people can actually use.**
 
@@ -12,23 +8,23 @@
 
 <br />
 
-<img src="./assets/practice.gif" alt="01 / From physics to working systems. Physics into working systems — model the problem, validate the result, build something useful." width="100%" />
+## 01 / Personal dossier
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/dossier-mobile.png" />
+  <img src="./assets/dossier.gif" alt="SURENDHER_R — mechanical engineering and computation. Original concrete SR emblem; current study: forced-air cooling for avionics heat sinks; learning OpenFOAM and numerical methods; open to internships and collaborations." width="100%" />
+</picture>
+
+**Mechanical Engineering student · Thermal engineering & CFD · Engineering software**
 
 <details>
-<summary>01 / From physics to working systems — read the profile</summary>
+<summary>Open the dossier — profile, workshop status & disciplines</summary>
 
 I am a Mechanical Engineering student building at the intersection of **engineering and software**. My work usually starts with a physical system—heat transfer, fluid flow, machine design, or engineering data—and asks how computation can help us understand it, improve it, or make it easier to use.
 
 I use AI to shorten the distance between an idea and a working prototype, while keeping the engineering assumptions, architecture, and decisions grounded in the real problem.
 
-</details>
-
-<br />
-
-<img src="./assets/status.gif" alt="Workshop status: building engineering tools, simulations, and useful software; focusing on thermal engineering, forced-air cooling, and CFD; learning OpenFOAM, numerical methods, and better engineering code; driven by curiosity, clear reasoning, and systems that work." width="100%" />
-
-<details>
-<summary>Workshop status — text version</summary>
+### Workshop status
 
 | WORKSHOP STATUS | |
 | :--- | :--- |
@@ -37,14 +33,7 @@ I use AI to shorten the distance between an idea and a working prototype, while 
 | **Learning** | OpenFOAM, numerical methods, and better engineering code |
 | **Operating on** | Curiosity, clear reasoning, and systems that actually work |
 
-</details>
-
-<br />
-
-<img src="./assets/disciplines.gif" alt="What I work on: mechanical engineering, simulation, and software." width="100%" />
-
-<details>
-<summary>What I work on — disciplines and scope</summary>
+### What I work on
 
 | 01 / Mechanical | 02 / Simulation | 03 / Software |
 | :--- | :--- | :--- |
@@ -54,30 +43,22 @@ I use AI to shorten the distance between an idea and a working prototype, while 
 
 <br />
 
-<img src="./assets/hedron-study.gif" alt="02 / Current work. Order from complexity — a rotating 3D hedron and floating concrete blocks." width="100%" />
-
-<details>
-<summary>02 / Current work — thermal engineering, CFD & aerospace</summary>
-
-My present focus is **thermal engineering and CFD**, including an OpenFOAM-based study of forced-air cooling for avionics heat sinks.
-
-Alongside simulation work, I build dashboards, workflow automations, and small developer utilities. I am especially interested in projects where software does more than display information—it becomes part of the engineering workflow itself.
-
-Long term, I want to work on large-scale aerospace and space systems, especially thermal management, fluid mechanics, structures, and rotating space habitats.
-
-</details>
-
-<br />
-
 <a id="selected-work"></a>
 
-<img src="./assets/selected-work.gif" alt="03 / Featured builds. Built to work — selected engineering, analytics, and live systems projects." width="100%" />
+## 02 / Project evidence
+
+<sub>REAL INTERFACES / ENGINEERING, ANALYTICS & LIVE SYSTEMS</sub>
 
 <br />
 
-<a href="https://github.com/suren1013/Casting-Assistant"><img src="./assets/casting.gif" alt="Casting Assistant — 6 alloys, 3D riser schematic, modulus, yield, feeding and risk." width="100%" /></a>
+<a href="https://github.com/suren1013/Casting-Assistant"><picture>
+  <source media="(max-width: 600px)" srcset="./assets/casting-evidence-mobile.png" />
+  <img src="./assets/casting-evidence.gif" alt="Genuine Casting Assistant interface with its default example, 6 alloys, 3D riser schematic, modulus, yield, feeding and risk." width="100%" />
+</picture></a>
 
-[01 — Casting Assistant →](https://github.com/suren1013/Casting-Assistant)
+**[Casting Assistant →](https://github.com/suren1013/Casting-Assistant)** — Casting and riser design: modulus, feeding distance, yield, and risk across six alloys.
+
+[Inspect the full interface capture](./assets/casting-interface.png)
 
 <details>
 <summary>Open project file — problem & implementation</summary>
@@ -90,9 +71,14 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 
 <br />
 
-<a href="https://github.com/suren1013/customer-clv-dashboard"><img src="./assets/clv.gif" alt="Customer CLV Dashboard — 10 cleaning steps, 12 customer metrics, 7 RFM segments." width="100%" /></a>
+<a href="https://github.com/suren1013/customer-clv-dashboard"><picture>
+  <source media="(max-width: 600px)" srcset="./assets/clv-evidence-mobile.png" />
+  <img src="./assets/clv-evidence.gif" alt="Genuine Customer CLV interface using bundled public demo data. 10 cleaning steps, 12 customer metrics, 7 RFM segments." width="100%" />
+</picture></a>
 
-[02 — Customer CLV Dashboard →](https://github.com/suren1013/customer-clv-dashboard)
+**[Customer CLV Dashboard →](https://github.com/suren1013/customer-clv-dashboard)** — From validated transactions to customer metrics, segmentation, CLV, and export.
+
+[Inspect the full interface capture](./assets/clv-interface.png)
 
 <details>
 <summary>Open project file — problem & implementation</summary>
@@ -105,9 +91,14 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 
 <br />
 
-<a href="https://github.com/suren1013/TN-Election-Live-Dashboard"><img src="./assets/election.gif" alt="TN Election Live Dashboard — 234 constituencies, 60-second refresh, majority tracking." width="100%" /></a>
+<a href="https://github.com/suren1013/TN-Election-Live-Dashboard"><picture>
+  <source media="(max-width: 600px)" srcset="./assets/election-evidence-mobile.png" />
+  <img src="./assets/election-evidence.gif" alt="Genuine deployed election dashboard snapshot. 234 constituencies, 60-second refresh, majority tracking." width="100%" />
+</picture></a>
 
-[03 — TN Election Live Dashboard →](https://github.com/suren1013/TN-Election-Live-Dashboard)
+**[TN Election Live Dashboard →](https://github.com/suren1013/TN-Election-Live-Dashboard)** — Seat movement, constituency status, and the majority threshold in one place.
+
+[Inspect the full interface capture](./assets/election-interface.png)
 
 <details>
 <summary>Open project file — problem & implementation</summary>
@@ -122,40 +113,51 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 
 <br />
 
-<img src="./assets/palette.gif" alt="04 / Working palette. Engineering: OpenFOAM, ANSYS, SolidWorks, CFD, FEA, Heat Transfer. Code: Python, TypeScript, JavaScript, React, Next.js, Java. Tools: Git, GitHub, VS Code, LangChain." width="100%" />
+## 03 / Research spotlight
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/research-spotlight-mobile.png" />
+  <img src="./assets/research-spotlight.gif" alt="Original conceptual 3D heat-sink geometry for the avionics forced-air cooling research spotlight. Heat transfer and OpenFOAM-based CFD. No simulation results are shown." width="100%" />
+</picture>
+
+**Current focus:** OpenFOAM-based forced-air cooling for avionics heat sinks.
+
+<sub>The image is a conceptual geometry study; its lighting does not represent temperatures or simulation results.</sub>
 
 <details>
-<summary>04 / Working palette — text version</summary>
+<summary>Research file — current work & future directions</summary>
 
-| Engineering | Code | Tools |
-| :--- | :--- | :--- |
-| OpenFOAM · ANSYS · SolidWorks · CFD · FEA · Heat Transfer | Python · TypeScript · JavaScript · React · Next.js · Java | Git · GitHub · VS Code · LangChain |
+My present focus is **thermal engineering and CFD**, including an OpenFOAM-based study of forced-air cooling for avionics heat sinks.
+
+Alongside simulation work, I build dashboards, workflow automations, and small developer utilities. I am especially interested in projects where software does more than display information—it becomes part of the engineering workflow itself.
+
+Long term, I want to work on large-scale aerospace and space systems, especially thermal management, fluid mechanics, structures, and rotating space habitats.
+
+**Current focus / Thermal systems** — Forced-air cooling for avionics heat sinks, heat transfer, and OpenFOAM-based CFD. The connection between a physical cooling problem and a computable model is at the centre of this work.
+
+**Continuing study / Fluid mechanics and computation** — OpenFOAM, numerical methods, and better engineering code. I am interested in the point where understanding a flow becomes a useful engineering decision.
+
+**Long-term interests / Aerospace and space systems** — Thermal management, fluid mechanics, structures, and rotating space habitats. My long-term aim is to contribute to large-scale aerospace and space systems.
 
 </details>
 
 <br />
 
-<img src="./assets/principles.gif" alt="05 / Build principles. Reason, build, refine. Understand the physical system, make assumptions visible, validate the smallest useful version, use AI to accelerate judgment, and improve the model." width="100%" />
-
-<details>
-<summary>05 / Build principles — read the complete method</summary>
-
-1. Understand the physical system before abstracting it.
-2. Make assumptions visible and results measurable.
-3. Build the smallest useful version, then validate it.
-4. Use AI to accelerate judgment—not replace it.
-5. Close the loop: learn from the result and improve the model.
-
-> Understand the system. Build the simplest useful version. Then make it better.
-
-</details>
+<img src="./assets/hedron-study.gif" alt="Order from complexity — original 3D hedron and suspended concrete blocks in a smooth twelve-second loop." width="100%" />
 
 <br />
 
-<img src="./assets/workflow.gif" alt="Engineering workflow: question, model, simulate, validate, build, and repeat. All text stays stationary; a red registration mark sweeps the bottom margin." width="100%" />
+## 04 / Method & tools
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/method-board-mobile.png" />
+  <img src="./assets/method-board.gif" alt="Question, model, simulate, validate, build. Engineering: OpenFOAM, ANSYS, SolidWorks, CFD, FEA, Heat Transfer. Code: Python, TypeScript, JavaScript, React, Next.js, Java. Tools: Git, GitHub, VS Code, LangChain." width="100%" />
+</picture>
+
+**Question → Model → Simulate → Validate → Build → Refine**
 
 <details>
-<summary>Engineering workflow — close the loop</summary>
+<summary>Working method, complete tool palette & build principles</summary>
 
 **Question** — Define the physical system, the constraints, and the decision the work needs to support.
 
@@ -169,26 +171,45 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 
 Three questions guide the loop: **What are we assuming? What would change the result? What evidence would make us trust it?**
 
+### Working palette
+
+| Engineering | Code | Tools |
+| :--- | :--- | :--- |
+| OpenFOAM · ANSYS · SolidWorks · CFD · FEA · Heat Transfer | Python · TypeScript · JavaScript · React · Next.js · Java | Git · GitHub · VS Code · LangChain |
+
+### Build principles
+
+1. Understand the physical system before abstracting it.
+2. Make assumptions visible and results measurable.
+3. Build the smallest useful version, then validate it.
+4. Use AI to accelerate judgment—not replace it.
+5. Close the loop: learn from the result and improve the model.
+
+> Understand the system. Build the simplest useful version. Then make it better.
+
 </details>
 
 <br />
 
-<img src="./assets/research.gif" alt="Research directions: current thermal engineering and OpenFOAM-based avionics heat-sink cooling; interests in fluid mechanics, numerical methods, aerospace, structures, and rotating space habitats." width="100%" />
+## 05 / Public activity
 
-<details>
-<summary>Research directions — current focus and future interests</summary>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/activity-landscape-mobile.png" />
+  <img src="./assets/activity-landscape.png" alt="An isometric concrete-column contribution calendar based on validated public GitHub data. One column per day; height and colour represent GitHub intensity levels. Actual contribution total, active days, date range and refresh date appear in the artwork." width="100%" />
+</picture>
 
-**Current focus / Thermal systems** — Forced-air cooling for avionics heat sinks, heat transfer, and OpenFOAM-based CFD. The connection between a physical cooling problem and a computable model is at the centre of this work.
+[Readable activity summary](./assets/activity-summary.md) &nbsp; / &nbsp; [Underlying calendar data](./assets/activity-data.json) &nbsp; / &nbsp; [Public source](https://github.com/users/suren1013/contributions)
 
-**Continuing study / Fluid mechanics and computation** — OpenFOAM, numerical methods, and better engineering code. I am interested in the point where understanding a flow becomes a useful engineering decision.
-
-**Long-term interests / Aerospace and space systems** — Thermal management, fluid mechanics, structures, and rotating space habitats. My long-term aim is to contribute to large-scale aerospace and space systems.
-
-</details>
+<sub>Scheduled refresh: daily at 07:30 IST. Artwork retains its last successful refresh date if an update fails.</sub>
 
 <br />
 
-<img src="./assets/contact.gif" alt="06 / Let's build something useful. Open to internships and collaborations in thermal engineering, CFD, engineering software, and applied AI." width="100%" />
+## 06 / Let’s build something useful
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/contact-board-mobile.png" />
+  <img src="./assets/contact-board.gif" alt="Open to internships and collaborations in thermal engineering, CFD, engineering software, and applied AI. Let's build something useful." width="100%" />
+</picture>
 
 I am open to **internships and collaborations** in thermal engineering, CFD, engineering software, and applied AI.
 

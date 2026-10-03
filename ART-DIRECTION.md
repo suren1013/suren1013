@@ -9,15 +9,33 @@ This is a GitHub profile README, with original raster artwork inspired by the br
 - `hedron-study-still.png`: stationary alternative. Replace the GIF reference in the README with this file to disable motion.
 - The previous graphics are retained in assets for reference, but the README no longer uses them.
 
-The twelve raster typography panels keep every heading, label, numeral, metric, and reading surface stationary. Each panel restores a red registration sweep confined to the empty bottom margin. It follows a twelve-second cosine cycle at 20 fps, slowing to zero at both ends rather than jumping from right to left. Panel phases are offset to avoid synchronised sweeps throughout the page. Title wipes, floating text, cycling status labels, and moving principle highlights remain removed. Red accents are softer, and secondary labels are brighter for readability.
+The profile now has six distinct visual sections: personal dossier, project evidence, research spotlight, method and tools, public activity, and contact. The original cover and smooth hedron remain. Repeated typography plates have been combined into fewer editorial boards.
 
-Two additional panels develop the existing profile content: a five-stage engineering workflow (question, model, simulate, validate, build) and research directions that distinguish the current thermal/CFD focus from longer-term aerospace interests. Collaboration starting points provide concrete ways to discuss a project without adding unsupported claims of experience. The stationary version includes the same new content and same-name PNG artwork.
+`dossier-emblem.png` and `heat-sink-concept.png` are original Blender renders. The heat sink is conceptual geometry: the red lighting is artistic and conveys no measured temperature or CFD results. `project-captures.json` records public source revisions, demo inputs, and capture provenance. All three project panels use genuine interface screenshots, with links to full captures for inspection.
+
+The new editorial panels keep every heading, label, numeral, metric, photo, and reading surface stationary. A red registration sweep is confined to the empty bottom margin. It follows a twelve-second cosine cycle at 20 fps, slowing to zero at both ends rather than jumping from right to left. Phases are offset across panels. A fixed image palette prevents text and screenshot colours from flickering between GIF frames. Title wipes, floating text, cycling labels, and moving principle highlights remain removed.
 
 The 3D loop now lasts twelve seconds rather than four, rendered with twice the previous sampling and an exact 50 ms GIF cadence. Cyclic motion avoids an abrupt loop reset. These choices reduce visual distraction; they are not a guarantee of comfort for every viewer. GitHub README images cannot expose reliable pause controls or honor reduced-motion CSS. The profile therefore links to `STILL.md` at the top, providing the complete same-content design with zero animated assets.
 
 All meaningful profile copy remains selectable Markdown inside expandable descriptions and text versions. Images have descriptive alt text, and contact/project links remain independent of the artwork. GitHub controls the surrounding page styling. No external image services, JavaScript, or CSS dependencies are required to display the profile.
 
-Rebuild the typography panels with `./tools/render_typography.ps1` from PowerShell on Windows. This renderer uses System.Drawing, the installed Impact and Arial fonts, and FFmpeg. Override its `-FFmpeg` argument if FFmpeg lives elsewhere. It generates fresh raster frames from text and drawing commands; it does not modify the cover or the Blender artwork.
+Responsive `<picture>` elements select compact stationary panels below 600 pixels, with larger stacked headings and labels instead of shrinking desktop boards. The desktop artwork remains the fallback. Both profile versions use the same compact PNGs; the still version also replaces the hedron loop. This uses [GitHub-supported picture markup](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). Full interface captures and selectable descriptions remain available at every width.
+
+## Rebuild the editorial profile
+
+The source copy lives in `profile/content.json`. Run `node tools/assemble_profile.mjs` to regenerate both README variants without duplicating or losing selectable descriptions. The complete still version uses the same copy and all static PNG assets. New one-line project captions and full-capture links remain visible outside expandable sections, including on narrow screens.
+
+Install `tools/requirements.txt` in a Python 3.11 environment. On Windows with Arial and Impact installed, run `python tools/render_profile.py` to compose the dossier, project, research, method, and contact panels. Genuine captures must exist first; this renderer fails rather than substituting an invented screenshot. Run Blender 4.2 with `--background --python tools/render_editorial_3d.py` to rebuild the original emblem and conceptual heat sink. The original typography renderer remains available for archived assets but its plates are no longer the main profile layout.
+
+Run `python tools/render_mobile.py` after the desktop renders to build the compact static panels, then assemble both Markdown files. Run `python tools/verify_motion.py` to check twelve-second timing, stationary reading regions, and sweep continuity across all seven editorial animations.
+
+## Public activity refresh
+
+`python tools/activity.py --username suren1013 --output-dir assets` fetches the public contribution calendar, validates dates and tooltip counts, and generates `activity-data.json`, `activity-landscape.png`, `activity-landscape-mobile.png`, and `activity-summary.md`. Both activity images are stationary. Heights and colours represent GitHub intensity levels; totals sum the publicly displayed daily counts. These numbers do not imply the contents of private repositories or measure engineering quality.
+
+The GitHub Actions workflow runs at `02:00 UTC` (07:30 IST) and supports manual dispatch. It uses the repository token for Git commits, needs no personal token, and stages only the four activity files. Scheduling becomes active when the workflow reaches the repository's default branch; GitHub may delay scheduled runs. Fetch, parse, and render failures occur before output replacement, preserve the previous successful artwork and refresh date, and fail the job visibly. Source markup changes or a public calendar more than fourteen days out of date are rejected. Linux rendering installs DejaVu fonts; the renderer uses those when Windows fonts are unavailable.
+
+Run `python -m unittest discover -s tests -v` and `node tools/verify_profile.mjs` for calendar validation, failure preservation, source-copy retention, and asset checks.
 
 ## Rebuild the animation
 
