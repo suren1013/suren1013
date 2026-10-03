@@ -8,11 +8,11 @@
 
 **I turn physical problems into models, simulations, and tools that people can actually use.**
 
-[Still version — no motion](./STILL.md) &nbsp; / &nbsp; [Selected projects](#selected-work) &nbsp; / &nbsp; [Repository archive](https://github.com/suren1013?tab=repositories) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/surendher-r/) &nbsp; / &nbsp; [Email](mailto:rsurendher35@gmail.com)
+[View the motion version](./README.md) &nbsp; / &nbsp; [Selected projects](#selected-work) &nbsp; / &nbsp; [Repository archive](https://github.com/suren1013?tab=repositories) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/surendher-r/) &nbsp; / &nbsp; [Email](mailto:rsurendher35@gmail.com)
 
 <br />
 
-<img src="./assets/practice.gif" alt="01 / From physics to working systems. Physics into working systems — model the problem, validate the result, build something useful." width="100%" />
+<img src="./assets/practice.png" alt="01 / From physics to working systems. Physics into working systems — model the problem, validate the result, build something useful." width="100%" />
 
 <details>
 <summary>01 / From physics to working systems — read the profile</summary>
@@ -54,7 +54,7 @@ I use AI to shorten the distance between an idea and a working prototype, while 
 
 <br />
 
-<img src="./assets/hedron-study.gif" alt="02 / Current work. Order from complexity — a rotating 3D hedron and floating concrete blocks." width="100%" />
+<img src="./assets/hedron-study-still.png" alt="02 / Current work. Order from complexity — a rotating 3D hedron and floating concrete blocks." width="100%" />
 
 <details>
 <summary>02 / Current work — thermal engineering, CFD & aerospace</summary>
@@ -152,7 +152,7 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 
 <br />
 
-<img src="./assets/contact.gif" alt="06 / Let's build something useful. Open to internships and collaborations in thermal engineering, CFD, engineering software, and applied AI." width="100%" />
+<img src="./assets/contact.png" alt="06 / Let's build something useful. Open to internships and collaborations in thermal engineering, CFD, engineering software, and applied AI." width="100%" />
 
 I am open to **internships and collaborations** in thermal engineering, CFD, engineering software, and applied AI.
 
@@ -164,4 +164,4 @@ I am open to **internships and collaborations** in thermal engineering, CFD, eng
 
 <sub>Mechanical engineering, computation, and a lot of building.</sub>
 
-[View the complete still version →](./STILL.md)
+[Return to the motion version →](./README.md)

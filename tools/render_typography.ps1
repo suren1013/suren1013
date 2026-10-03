@@ -7,8 +7,8 @@ $framesRoot = Join-Path $repoRoot 'build/typography'
 New-Item -ItemType Directory -Path $framesRoot -Force | Out-Null
 $ink = [System.Drawing.ColorTranslator]::FromHtml('#111214')
 $paper = [System.Drawing.ColorTranslator]::FromHtml('#e5e1d8')
-$red = [System.Drawing.ColorTranslator]::FromHtml('#dd3027')
-$muted = [System.Drawing.ColorTranslator]::FromHtml('#93938e')
+$red = [System.Drawing.ColorTranslator]::FromHtml('#ca5148')
+$muted = [System.Drawing.ColorTranslator]::FromHtml('#aeaea7')
 function Brush($color) { New-Object System.Drawing.SolidBrush($color) }
 function Text($g, $text, $x, $y, $size, $color, $face='Arial', $bold=$false) {
     $style = [System.Drawing.FontStyle]::Regular
@@ -38,35 +38,40 @@ $panels = @(
 foreach ($p in $panels) {
     $folder = Join-Path $framesRoot $p.name
     New-Item -ItemType Directory -Path $folder -Force | Out-Null
-    for ($frame=0; $frame -lt 48; $frame++) {
-        $t = $frame / 48.0
+    # Only introductory and closing panels contain decorative motion.
+    # Every reading surface, heading, label and metric is pixel-stationary.
+    $frameCount = 1
+    if ($p.name -in @('practice','contact')) { $frameCount = 160 }
+    for ($frame=0; $frame -lt $frameCount; $frame++) {
+        $t = $frame / [double]$frameCount
         $bmp = New-Object System.Drawing.Bitmap(1000, $p.h)
         $g = [System.Drawing.Graphics]::FromImage($bmp)
         $g.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
         $g.TextRenderingHint = [System.Drawing.Text.TextRenderingHint]::AntiAliasGridFit
         $g.Clear($ink)
-        # Architectural rules and an endlessly traversing red registration mark.
+        # Fixed architectural rules; no scans, wipes or moving reading targets.
         Rect $g $red 0 0 8 $p.h
         Rect $g ([System.Drawing.Color]::FromArgb(45, 229, 225, 216)) 32 ($p.h-28) 934 1
-        $scan = 32 + 820 * $t
-        Rect $g $red $scan ($p.h-30) 115 4
+        Rect $g $red 32 ($p.h-30) 115 3
         Text $g $p.tag 36 23 13 $muted 'Arial' $true
-        if ($p.num) { Text $g $p.num 862 32 116 ([System.Drawing.Color]::FromArgb(39, 40, 42)) 'Impact' }
+        if ($p.num) {
+            # An eight-second cosine cycle changes only a background numeral.
+            # Zero velocity at both ends; no position or high-contrast changes.
+            $tone = 39
+            if ($frameCount -gt 1) { $tone = 39 + [int](6 * (1 - [Math]::Cos($t * 2 * [Math]::PI)) / 2) }
+            Text $g $p.num 862 32 116 ([System.Drawing.Color]::FromArgb($tone, $tone+1, $tone+3)) 'Impact'
+        }
         $titleSize = 66
         if ($p.title.Length -gt 20) { $titleSize = 57 }
         if ($p.title2) { $titleSize = 78 }
-        # Letter planes separate gently, then settle; all words remain visible.
-        $shift = 18 * [Math]::Sin($t * 2 * [Math]::PI)
-        Text $g $p.title (32+$shift) 63 $titleSize $paper 'Impact'
-        if ($p.title2) { Text $g $p.title2 (32-$shift) 143 $titleSize $paper 'Impact' }
+        Text $g $p.title 32 63 $titleSize $paper 'Impact'
+        if ($p.title2) { Text $g $p.title2 32 143 $titleSize $paper 'Impact' }
         if ($p.footer) { Text $g $p.footer 36 ($p.h-61) 13 $muted 'Arial' $true }
         if ($p.rows) {
             $index = 0
             foreach ($row in $p.rows) {
                 $y = 150 + $index * 43
-                $active = [int][Math]::Floor($t*4)
                 $color = $muted
-                if ($index -eq $active) { $color = $red; Rect $g $red 25 ($y+5) 3 22 }
                 Text $g $row[0] 37 $y 13 $color 'Arial' $true
                 Text $g $row[1] 184 ($y-3) 22 $paper
                 $index++
@@ -76,8 +81,7 @@ foreach ($p in $panels) {
             $index = 0
             foreach ($metric in $p.metrics) {
                 $x = 36 + $index*310
-                $metricY = 143 + 4 * [Math]::Sin(($t * 2 * [Math]::PI) + $index * 1.4)
-                Text $g $metric[0] $x $metricY 44 $red 'Impact'
+                Text $g $metric[0] $x 143 44 $red 'Impact'
                 Text $g $metric[1] $x 194 12 $muted 'Arial' $true
                 $index++
             }
@@ -96,26 +100,19 @@ foreach ($p in $panels) {
             $index=0
             foreach ($principle in $p.principles) {
                 $y = 158 + $index*43
-                $active = [int][Math]::Floor($t*5)
                 $color=$paper
-                if ($index -eq $active) { Rect $g $red 30 ($y-1) 930 35; $color=$ink }
-                Text $g ('0'+($index+1)) 42 $y 20 $color 'Impact'
+                Text $g ('0'+($index+1)) 42 $y 20 $red 'Impact'
                 Text $g $principle 92 ($y+1) 21 $color
                 $index++
             }
-        }
-        # A single red obstruction sweeps across the title near the loop end.
-        # No blinking, random glitching, or disappearing reading content.
-        if ($frame -ge 40) {
-            $wipe = ($frame-40)/8.0
-            Rect $g $red (32+930*$wipe) 58 6 83
         }
         $path = Join-Path $folder ('{0:D4}.png' -f $frame)
         $bmp.Save($path, [System.Drawing.Imaging.ImageFormat]::Png)
         if ($frame -eq 0) { $bmp.Save((Join-Path $assetsRoot ($p.name+'.png')), [System.Drawing.Imaging.ImageFormat]::Png) }
         $g.Dispose(); $bmp.Dispose()
     }
-    & $FFmpeg -hide_banner -loglevel error -y -framerate 12 -i (Join-Path $folder '%04d.png') -filter_complex '[0:v]split[a][b];[a]palettegen=max_colors=96:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=3' -loop 0 (Join-Path $assetsRoot ($p.name+'.gif'))
+    # Explicit frame limit prevents stale frames from an earlier render entering a loop.
+    & $FFmpeg -hide_banner -loglevel error -y -framerate 20 -i (Join-Path $folder '%04d.png') -filter_complex '[0:v]split[a][b];[a]palettegen=max_colors=128:stats_mode=diff[p];[b][p]paletteuse=dither=none' -frames:v $frameCount -loop 0 (Join-Path $assetsRoot ($p.name+'.gif'))
     if ($LASTEXITCODE -ne 0) { throw "Encoding failed for $($p.name)" }
     Write-Output "Rendered $($p.name)"
 }

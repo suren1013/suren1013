@@ -10,12 +10,13 @@ bpy.ops.object.select_all(action='SELECT')
 bpy.ops.object.delete(use_global=False)
 scene = bpy.context.scene
 scene.render.engine = 'BLENDER_EEVEE_NEXT'
-scene.eevee.taa_render_samples = 32
+scene.eevee.taa_render_samples = 64
 scene.render.resolution_x = 1000
 scene.render.resolution_y = 440
 scene.render.resolution_percentage = 100
 scene.render.image_settings.file_format = 'PNG'
-scene.render.fps = 18
+scene.render.fps = 20
+FRAME_COUNT = 240  # Twelve-second loop, GIF-native 50 ms cadence.
 scene.world.color = (0.025, 0.025, 0.025)
 scene.view_settings.view_transform = 'AgX'
 scene.view_settings.look = 'AgX - Medium High Contrast'
@@ -128,9 +129,9 @@ label('COMPLEXITY.', -7.1, -1.15, 0.75)
 label('THERMAL SYSTEMS  /  CFD  /  SOFTWARE', -7.1, -2.25, 0.16)
 label('01   /   COMPUTATIONAL STUDIES', -7.1, -2.75, 0.15)
 scene.frame_start = 1
-scene.frame_end = 72
-for f in range(1, 73):
-    t = math.tau * (f - 1) / 72
+scene.frame_end = FRAME_COUNT
+for f in range(1, FRAME_COUNT + 1):
+    t = math.tau * (f - 1) / FRAME_COUNT
     hedron.rotation_euler = (0.22 + 0.12 * math.sin(t), t, 0.17)
     hedron.location.z = 0.6 + 0.18 * math.sin(t)
     for o, base, rot, phase in blocks:
@@ -139,4 +140,4 @@ for f in range(1, 73):
     scene.frame_set(f)
     scene.render.filepath = str(OUT / ('%04d.png' % f))
     bpy.ops.render.render(write_still=True)
-print('Rendered 72 seamless frames to', OUT)
+print('Rendered', FRAME_COUNT, 'seamless frames to', OUT)

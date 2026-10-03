@@ -16,4 +16,10 @@ for (const [, src] of current.matchAll(/src="([^"]+)"/g)) {
 }
 assert.ok(!current.includes('.svg'), 'Retired SVG still used');
 assert.equal(readFileSync('assets/hedron-study.gif').subarray(0, 6).toString(), 'GIF89a');
+if (existsSync('STILL.md')) {
+  const still = readFileSync('STILL.md', 'utf8');
+  assert.ok(!still.includes('.gif'), 'Still profile includes motion');
+  for (const paragraph of paragraphs) assert.ok(still.includes(paragraph), `Still profile missing copy: ${paragraph}`);
+  for (const [, src] of still.matchAll(/src="([^"]+)"/g)) assert.ok(existsSync(src), `Missing still image: ${src}`);
+}
 console.log(`Verified ${paragraphs.length} original paragraphs, all original link targets, and local image references.`);
