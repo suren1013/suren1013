@@ -25,7 +25,7 @@ I use AI to shorten the distance between an idea and a working prototype, while 
 
 <br />
 
-<img src="./assets/status.png" alt="Workshop status: building engineering tools, simulations, and useful software; focusing on thermal engineering, forced-air cooling, and CFD; learning OpenFOAM, numerical methods, and better engineering code; driven by curiosity, clear reasoning, and systems that work." width="100%" />
+<img src="./assets/status.gif" alt="Workshop status: building engineering tools, simulations, and useful software; focusing on thermal engineering, forced-air cooling, and CFD; learning OpenFOAM, numerical methods, and better engineering code; driven by curiosity, clear reasoning, and systems that work." width="100%" />
 
 <details>
 <summary>Workshop status — text version</summary>
@@ -41,7 +41,7 @@ I use AI to shorten the distance between an idea and a working prototype, while 
 
 <br />
 
-<img src="./assets/disciplines.png" alt="What I work on: mechanical engineering, simulation, and software." width="100%" />
+<img src="./assets/disciplines.gif" alt="What I work on: mechanical engineering, simulation, and software." width="100%" />
 
 <details>
 <summary>What I work on — disciplines and scope</summary>
@@ -71,11 +71,11 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 
 <a id="selected-work"></a>
 
-<img src="./assets/selected-work.png" alt="03 / Featured builds. Built to work — selected engineering, analytics, and live systems projects." width="100%" />
+<img src="./assets/selected-work.gif" alt="03 / Featured builds. Built to work — selected engineering, analytics, and live systems projects." width="100%" />
 
 <br />
 
-<a href="https://github.com/suren1013/Casting-Assistant"><img src="./assets/casting.png" alt="Casting Assistant — 6 alloys, 3D riser schematic, modulus, yield, feeding and risk." width="100%" /></a>
+<a href="https://github.com/suren1013/Casting-Assistant"><img src="./assets/casting.gif" alt="Casting Assistant — 6 alloys, 3D riser schematic, modulus, yield, feeding and risk." width="100%" /></a>
 
 [01 — Casting Assistant →](https://github.com/suren1013/Casting-Assistant)
 
@@ -90,7 +90,7 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 
 <br />
 
-<a href="https://github.com/suren1013/customer-clv-dashboard"><img src="./assets/clv.png" alt="Customer CLV Dashboard — 10 cleaning steps, 12 customer metrics, 7 RFM segments." width="100%" /></a>
+<a href="https://github.com/suren1013/customer-clv-dashboard"><img src="./assets/clv.gif" alt="Customer CLV Dashboard — 10 cleaning steps, 12 customer metrics, 7 RFM segments." width="100%" /></a>
 
 [02 — Customer CLV Dashboard →](https://github.com/suren1013/customer-clv-dashboard)
 
@@ -105,7 +105,7 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 
 <br />
 
-<a href="https://github.com/suren1013/TN-Election-Live-Dashboard"><img src="./assets/election.png" alt="TN Election Live Dashboard — 234 constituencies, 60-second refresh, majority tracking." width="100%" /></a>
+<a href="https://github.com/suren1013/TN-Election-Live-Dashboard"><img src="./assets/election.gif" alt="TN Election Live Dashboard — 234 constituencies, 60-second refresh, majority tracking." width="100%" /></a>
 
 [03 — TN Election Live Dashboard →](https://github.com/suren1013/TN-Election-Live-Dashboard)
 
@@ -122,7 +122,7 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 
 <br />
 
-<img src="./assets/palette.png" alt="04 / Working palette. Engineering: OpenFOAM, ANSYS, SolidWorks, CFD, FEA, Heat Transfer. Code: Python, TypeScript, JavaScript, React, Next.js, Java. Tools: Git, GitHub, VS Code, LangChain." width="100%" />
+<img src="./assets/palette.gif" alt="04 / Working palette. Engineering: OpenFOAM, ANSYS, SolidWorks, CFD, FEA, Heat Transfer. Code: Python, TypeScript, JavaScript, React, Next.js, Java. Tools: Git, GitHub, VS Code, LangChain." width="100%" />
 
 <details>
 <summary>04 / Working palette — text version</summary>
@@ -135,7 +135,7 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 
 <br />
 
-<img src="./assets/principles.png" alt="05 / Build principles. Reason, build, refine. Understand the physical system, make assumptions visible, validate the smallest useful version, use AI to accelerate judgment, and improve the model." width="100%" />
+<img src="./assets/principles.gif" alt="05 / Build principles. Reason, build, refine. Understand the physical system, make assumptions visible, validate the smallest useful version, use AI to accelerate judgment, and improve the model." width="100%" />
 
 <details>
 <summary>05 / Build principles — read the complete method</summary>
@@ -152,9 +152,56 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 
 <br />
 
+<img src="./assets/workflow.gif" alt="Engineering workflow: question, model, simulate, validate, build, and repeat. All text stays stationary; a red registration mark sweeps the bottom margin." width="100%" />
+
+<details>
+<summary>Engineering workflow — close the loop</summary>
+
+**Question** — Define the physical system, the constraints, and the decision the work needs to support.
+
+**Model** — Make the assumptions explicit. Choose the physics and the level of detail the problem needs.
+
+**Simulate** — Explore behaviour and compare alternatives. Keep the inputs and outputs traceable.
+
+**Validate** — Check whether the result makes physical sense. Make uncertainty and limitations visible.
+
+**Build** — Turn the result into something useful: an engineering decision, an interactive tool, or a repeatable workflow. Learn from the outcome and improve the model.
+
+Three questions guide the loop: **What are we assuming? What would change the result? What evidence would make us trust it?**
+
+</details>
+
+<br />
+
+<img src="./assets/research.gif" alt="Research directions: current thermal engineering and OpenFOAM-based avionics heat-sink cooling; interests in fluid mechanics, numerical methods, aerospace, structures, and rotating space habitats." width="100%" />
+
+<details>
+<summary>Research directions — current focus and future interests</summary>
+
+**Current focus / Thermal systems** — Forced-air cooling for avionics heat sinks, heat transfer, and OpenFOAM-based CFD. The connection between a physical cooling problem and a computable model is at the centre of this work.
+
+**Continuing study / Fluid mechanics and computation** — OpenFOAM, numerical methods, and better engineering code. I am interested in the point where understanding a flow becomes a useful engineering decision.
+
+**Long-term interests / Aerospace and space systems** — Thermal management, fluid mechanics, structures, and rotating space habitats. My long-term aim is to contribute to large-scale aerospace and space systems.
+
+</details>
+
+<br />
+
 <img src="./assets/contact.gif" alt="06 / Let's build something useful. Open to internships and collaborations in thermal engineering, CFD, engineering software, and applied AI." width="100%" />
 
 I am open to **internships and collaborations** in thermal engineering, CFD, engineering software, and applied AI.
+
+<details>
+<summary>Collaboration starting points</summary>
+
+- **Thermal engineering & CFD** — A physical cooling problem with clear geometry, constraints, and a question to investigate.
+- **Engineering software** — A calculation or workflow that could become a useful interactive tool.
+- **Data & automation** — A repeated process that needs clearer validation, cleaner inputs, or a better route from analysis to export.
+
+An initial conversation can start with the problem, the available inputs, and the outcome you want to reach.
+
+</details>
 
 [Connect on LinkedIn →](https://www.linkedin.com/in/surendher-r/) &nbsp; / &nbsp; [Send me an email →](mailto:rsurendher35@gmail.com)
 

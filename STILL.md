@@ -152,9 +152,56 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 
 <br />
 
+<img src="./assets/workflow.png" alt="Engineering workflow: question, model, simulate, validate, build, and repeat. All text stays stationary; a red registration mark sweeps the bottom margin." width="100%" />
+
+<details>
+<summary>Engineering workflow — close the loop</summary>
+
+**Question** — Define the physical system, the constraints, and the decision the work needs to support.
+
+**Model** — Make the assumptions explicit. Choose the physics and the level of detail the problem needs.
+
+**Simulate** — Explore behaviour and compare alternatives. Keep the inputs and outputs traceable.
+
+**Validate** — Check whether the result makes physical sense. Make uncertainty and limitations visible.
+
+**Build** — Turn the result into something useful: an engineering decision, an interactive tool, or a repeatable workflow. Learn from the outcome and improve the model.
+
+Three questions guide the loop: **What are we assuming? What would change the result? What evidence would make us trust it?**
+
+</details>
+
+<br />
+
+<img src="./assets/research.png" alt="Research directions: current thermal engineering and OpenFOAM-based avionics heat-sink cooling; interests in fluid mechanics, numerical methods, aerospace, structures, and rotating space habitats." width="100%" />
+
+<details>
+<summary>Research directions — current focus and future interests</summary>
+
+**Current focus / Thermal systems** — Forced-air cooling for avionics heat sinks, heat transfer, and OpenFOAM-based CFD. The connection between a physical cooling problem and a computable model is at the centre of this work.
+
+**Continuing study / Fluid mechanics and computation** — OpenFOAM, numerical methods, and better engineering code. I am interested in the point where understanding a flow becomes a useful engineering decision.
+
+**Long-term interests / Aerospace and space systems** — Thermal management, fluid mechanics, structures, and rotating space habitats. My long-term aim is to contribute to large-scale aerospace and space systems.
+
+</details>
+
+<br />
+
 <img src="./assets/contact.png" alt="06 / Let's build something useful. Open to internships and collaborations in thermal engineering, CFD, engineering software, and applied AI." width="100%" />
 
 I am open to **internships and collaborations** in thermal engineering, CFD, engineering software, and applied AI.
+
+<details>
+<summary>Collaboration starting points</summary>
+
+- **Thermal engineering & CFD** — A physical cooling problem with clear geometry, constraints, and a question to investigate.
+- **Engineering software** — A calculation or workflow that could become a useful interactive tool.
+- **Data & automation** — A repeated process that needs clearer validation, cleaner inputs, or a better route from analysis to export.
+
+An initial conversation can start with the problem, the available inputs, and the outcome you want to reach.
+
+</details>
 
 [Connect on LinkedIn →](https://www.linkedin.com/in/surendher-r/) &nbsp; / &nbsp; [Send me an email →](mailto:rsurendher35@gmail.com)
 
