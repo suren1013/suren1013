@@ -1,24 +1,34 @@
 <div align="center">
-  <img src="./assets/control-cover.png" alt="Surendher — mechanical engineering and computation. Brutalist concrete architecture, suspended monoliths, and a fractured hedron under vermilion light." width="100%" />
+  <img src="./assets/control-cover.png" alt="Surendher — mechanical engineering and computation. Brutalist architecture, suspended blocks and a fractured hedron under vermilion light." width="100%" />
 </div>
 
 <br />
 
 <sub>SURENDHER_R &nbsp; / &nbsp; MECHANICAL ENGINEERING × SIMULATION × USEFUL SOFTWARE</sub>
 
-### I turn physical problems into models, simulations, and tools that people can actually use.
+**I turn physical problems into models, simulations, and tools that people can actually use.**
 
-[Selected projects](#03--featured-builds) &nbsp; / &nbsp; [Repository archive](https://github.com/suren1013?tab=repositories) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/surendher-r/) &nbsp; / &nbsp; [Email](mailto:rsurendher35@gmail.com)
+[Selected projects](#selected-work) &nbsp; / &nbsp; [Repository archive](https://github.com/suren1013?tab=repositories) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/surendher-r/) &nbsp; / &nbsp; [Email](mailto:rsurendher35@gmail.com)
 
 <br />
 
-## 01 / From physics to working systems
+<img src="./assets/practice.gif" alt="01 / From physics to working systems. Physics into working systems — model the problem, validate the result, build something useful." width="100%" />
+
+<details>
+<summary>01 / From physics to working systems — read the profile</summary>
 
 I am a Mechanical Engineering student building at the intersection of **engineering and software**. My work usually starts with a physical system—heat transfer, fluid flow, machine design, or engineering data—and asks how computation can help us understand it, improve it, or make it easier to use.
 
 I use AI to shorten the distance between an idea and a working prototype, while keeping the engineering assumptions, architecture, and decisions grounded in the real problem.
 
+</details>
+
 <br />
+
+<img src="./assets/status.gif" alt="Workshop status: building engineering tools, simulations, and useful software; focusing on thermal engineering, forced-air cooling, and CFD; learning OpenFOAM, numerical methods, and better engineering code; driven by curiosity, clear reasoning, and systems that work." width="100%" />
+
+<details>
+<summary>Workshop status — text version</summary>
 
 | WORKSHOP STATUS | |
 | :--- | :--- |
@@ -27,21 +37,27 @@ I use AI to shorten the distance between an idea and a working prototype, while 
 | **Learning** | OpenFOAM, numerical methods, and better engineering code |
 | **Operating on** | Curiosity, clear reasoning, and systems that actually work |
 
+</details>
+
 <br />
 
-### What I work on
+<img src="./assets/disciplines.gif" alt="What I work on: mechanical engineering, simulation, and software." width="100%" />
+
+<details>
+<summary>What I work on — disciplines and scope</summary>
 
 | 01 / Mechanical | 02 / Simulation | 03 / Software |
 | :--- | :--- | :--- |
 | Heat transfer, thermal systems, machine design, and engineering problem-solving. | CFD, FEA, numerical modelling, and translating physical systems into computable models. | Web tools, automation, AI-assisted workflows, and software built around engineering needs. |
 
-<br />
-
-## 02 / Current work
-
-<img src="./assets/hedron-study.gif" alt="Order from complexity — an original 3D study of a slowly rotating graphite hedron and suspended concrete blocks. Thermal systems, CFD, and software." width="100%" />
+</details>
 
 <br />
+
+<img src="./assets/hedron-study.gif" alt="02 / Current work. Order from complexity — a rotating 3D hedron and floating concrete blocks." width="100%" />
+
+<details>
+<summary>02 / Current work — thermal engineering, CFD & aerospace</summary>
 
 My present focus is **thermal engineering and CFD**, including an OpenFOAM-based study of forced-air cooling for avionics heat sinks.
 
@@ -49,57 +65,80 @@ Alongside simulation work, I build dashboards, workflow automations, and small d
 
 Long term, I want to work on large-scale aerospace and space systems, especially thermal management, fluid mechanics, structures, and rotating space habitats.
 
+</details>
+
 <br />
 
-## 03 / Featured builds
+<a id="selected-work"></a>
 
-<sub>SELECTED WORK &nbsp; / &nbsp; ENGINEERING, ANALYTICS & LIVE SYSTEMS</sub>
+<img src="./assets/selected-work.gif" alt="03 / Featured builds. Built to work — selected engineering, analytics, and live systems projects." width="100%" />
 
-### [01 — Casting Assistant](https://github.com/suren1013/Casting-Assistant)
+<br />
+
+<a href="https://github.com/suren1013/Casting-Assistant"><img src="./assets/casting.gif" alt="Casting Assistant — 6 alloys, 3D riser schematic, modulus, yield, feeding and risk." width="100%" /></a>
+
+[01 — Casting Assistant →](https://github.com/suren1013/Casting-Assistant)
+
+<details>
+<summary>Open project file — problem & implementation</summary>
 
 **Problem** — Early casting design requires several connected decisions around geometry, feeding, riser sizing, material use, and process risk.
 
 **Built** — An interactive engineering dashboard that calculates casting and riser modulus, yield, feeding distance, material waste and cost, and design-risk flags across six alloys, supported by a 3D riser schematic.
 
-<sub>TypeScript &nbsp; / &nbsp; React &nbsp; / &nbsp; React Three Fiber</sub>
+</details>
 
 <br />
 
----
+<a href="https://github.com/suren1013/customer-clv-dashboard"><img src="./assets/clv.gif" alt="Customer CLV Dashboard — 10 cleaning steps, 12 customer metrics, 7 RFM segments." width="100%" /></a>
 
-### [02 — Customer CLV Dashboard](https://github.com/suren1013/customer-clv-dashboard)
+[02 — Customer CLV Dashboard →](https://github.com/suren1013/customer-clv-dashboard)
+
+<details>
+<summary>Open project file — problem & implementation</summary>
 
 **Problem** — Raw transaction data needs substantial validation and transformation before it can support useful customer decisions.
 
 **Built** — An upload-to-export analytics workflow with CSV validation, a 10-step cleaning pipeline, 12 customer metrics, seven RFM segments, CLV calculation, customer exploration, and CSV, Excel, PDF, and PNG exports.
 
-<sub>Python &nbsp; / &nbsp; Streamlit &nbsp; / &nbsp; Pandas &nbsp; / &nbsp; Plotly</sub>
+</details>
 
 <br />
 
----
+<a href="https://github.com/suren1013/TN-Election-Live-Dashboard"><img src="./assets/election.gif" alt="TN Election Live Dashboard — 234 constituencies, 60-second refresh, majority tracking." width="100%" /></a>
 
-### [03 — TN Election Live Dashboard](https://github.com/suren1013/TN-Election-Live-Dashboard)
+[03 — TN Election Live Dashboard →](https://github.com/suren1013/TN-Election-Live-Dashboard)
+
+<details>
+<summary>Open project file — problem & implementation</summary>
 
 **Problem** — Live election results are easier to understand when seat movement, constituency status, and the majority threshold are visible in one place.
 
 **Built** — A deployed dashboard covering 234 constituencies with 60-second data refresh, party and alliance aggregation, search and filtering, and majority tracking.
 
-<sub>TypeScript &nbsp; / &nbsp; React &nbsp; / &nbsp; Google Cloud Run</sub>
+</details>
 
 [Live application →](https://tn-election-dashboard-2026-1096783328687.us-west1.run.app)
 
 <br />
 
-## 04 / Working palette
+<img src="./assets/palette.gif" alt="04 / Working palette. Engineering: OpenFOAM, ANSYS, SolidWorks, CFD, FEA, Heat Transfer. Code: Python, TypeScript, JavaScript, React, Next.js, Java. Tools: Git, GitHub, VS Code, LangChain." width="100%" />
+
+<details>
+<summary>04 / Working palette — text version</summary>
 
 | Engineering | Code | Tools |
 | :--- | :--- | :--- |
 | OpenFOAM · ANSYS · SolidWorks · CFD · FEA · Heat Transfer | Python · TypeScript · JavaScript · React · Next.js · Java | Git · GitHub · VS Code · LangChain |
 
+</details>
+
 <br />
 
-## 05 / Build principles
+<img src="./assets/principles.gif" alt="05 / Build principles. Reason, build, refine. Understand the physical system, make assumptions visible, validate the smallest useful version, use AI to accelerate judgment, and improve the model." width="100%" />
+
+<details>
+<summary>05 / Build principles — read the complete method</summary>
 
 1. Understand the physical system before abstracting it.
 2. Make assumptions visible and results measurable.
@@ -107,13 +146,15 @@ Long term, I want to work on large-scale aerospace and space systems, especially
 4. Use AI to accelerate judgment—not replace it.
 5. Close the loop: learn from the result and improve the model.
 
-<br />
+
 
 > Understand the system. Build the simplest useful version. Then make it better.
 
+</details>
+
 <br />
 
-## 06 / Let's build something useful
+<img src="./assets/contact.gif" alt="06 / Let's build something useful. Open to internships and collaborations in thermal engineering, CFD, engineering software, and applied AI." width="100%" />
 
 I am open to **internships and collaborations** in thermal engineering, CFD, engineering software, and applied AI.
 
@@ -121,8 +162,13 @@ I am open to **internships and collaborations** in thermal engineering, CFD, eng
 
 <br />
 
----
-
 [Explore the repository archive →](https://github.com/suren1013?tab=repositories)
 
 <sub>Mechanical engineering, computation, and a lot of building.</sub>
+
+<details>
+<summary>Prefer still artwork?</summary>
+
+[Static typography panels](./assets/) are available alongside each animation; filenames ending in .png contain stationary versions.
+
+</details>

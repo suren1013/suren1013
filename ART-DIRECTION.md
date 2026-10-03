@@ -9,7 +9,11 @@ This is a GitHub profile README, with original raster artwork inspired by the br
 - `hedron-study-still.png`: stationary alternative. Replace the GIF reference in the README with this file to disable motion.
 - The previous graphics are retained in assets for reference, but the README no longer uses them.
 
-All meaningful profile copy remains selectable Markdown. Images have descriptive alt text, and contact/project links remain independent of the artwork. GitHub controls the surrounding page styling. No external image services, JavaScript, or CSS dependencies are required to display the profile.
+The visual sections now use ten original raster typography animations: practice, workshop status, disciplines, selected work, three project files, working palette, build principles, and contact. Condensed ivory titles move as typographic planes; red registration bars traverse the panels, metrics float, and the principles receive a travelling highlight. Each animation loops for four seconds and has a same-name stationary PNG alternative.
+
+All meaningful profile copy remains selectable Markdown inside expandable descriptions and text versions. Images have descriptive alt text, and contact/project links remain independent of the artwork. GitHub controls the surrounding page styling. No external image services, JavaScript, or CSS dependencies are required to display the profile.
+
+Rebuild the typography panels with `./tools/render_typography.ps1` from PowerShell on Windows. This renderer uses System.Drawing, the installed Impact and Arial fonts, and FFmpeg. Override its `-FFmpeg` argument if FFmpeg lives elsewhere. It generates fresh raster frames from text and drawing commands; it does not modify the cover or the Blender artwork.
 
 ## Rebuild the animation
 
